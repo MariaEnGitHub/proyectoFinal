@@ -1,0 +1,13 @@
+* {
+  background-color: #5dd9d3; }
+
+.img {
+  height: 250 px;
+  width: 250 px; }
+
+.carrito {
+  height: 50 px;
+  width: 50 px; }
+
+.azul, #beneficio {
+  border: 10px solid; }

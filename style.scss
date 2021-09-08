@@ -1,0 +1,12 @@
+@import "variables";
+@import "globales";
+@import "mixins";
+
+
+.azul{
+    @extend %todo-azul;
+}
+
+#beneficio{
+    @extend %todo-azul;
+}

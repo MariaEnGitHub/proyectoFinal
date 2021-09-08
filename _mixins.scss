@@ -1,0 +1,24 @@
+//MIXINS lo quiero usar para indicar que las imágenes del body van a tener el mismo tamaño//
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+
+ .img{
+     @include sizes(250 px, 250 px)
+ }
+
+ .carrito {
+    @include sizes(50 px, 50 px);
+ }
+ 
+
+//PLACE HOLDER para ponerle color azul a toda una clase
+%todo-azul{
+    $azul:blue;
+    border: 10px solid;
+}
+
+
+
